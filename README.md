@@ -1,5 +1,5 @@
 # LIBRERIA SSD1306
-
+(Todos los Creditos a Wells)
 ¡Bienvenido! 
 Aquí está la librería del SSD1306, lista para programar en:
 
