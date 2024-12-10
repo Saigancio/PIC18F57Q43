@@ -1,0 +1,668 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F57Q43 ]
+[d frameptr 1249 ]
+"4 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\SSD1306.c
+[e E17608 . `uc
+SSD1306_BLACK 0
+SSD1306_WHITE 1
+SSD1306_INVERSE 2
+]
+"17 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\testAnimacion.c
+[e E17608 . `uc
+SSD1306_BLACK 0
+SSD1306_WHITE 1
+SSD1306_INVERSE 2
+]
+"1 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"16 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\I2C_LCD.c
+[v _I2C1_INIT I2C1_INIT `(v  1 e 1 0 ]
+"38
+[v _I2C1_WRITESINGLEBYTE I2C1_WRITESINGLEBYTE `(v  1 e 1 0 ]
+"23 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\LIB_UART.c
+[v _U1_INIT U1_INIT `(v  1 e 1 0 ]
+"39
+[v _U1_BYTE_SEND U1_BYTE_SEND `(v  1 e 1 0 ]
+"4 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\SSD1306.c
+[v _SSD1306_I2C_SendCommand SSD1306_I2C_SendCommand `(v  1 s 1 SSD1306_I2C_SendCommand ]
+"25
+[v _SSD1306_I2C_SendData SSD1306_I2C_SendData `(v  1 s 1 SSD1306_I2C_SendData ]
+"49
+[v _SSD1306_I2C_Init SSD1306_I2C_Init `(v  1 e 1 0 ]
+"91
+[v _SSD1306_I2C_SetFont SSD1306_I2C_SetFont `(v  1 e 1 0 ]
+"113
+[v _SSD1306_I2C_Update SSD1306_I2C_Update `(v  1 e 1 0 ]
+"168
+[v _SSD1306_I2C_DrawPixel SSD1306_I2C_DrawPixel `(v  1 e 1 0 ]
+"187
+[v _SSD1306_I2C_Linea SSD1306_I2C_Linea `(v  1 e 1 0 ]
+"254
+[v _SSD1306_I2C_LineaVertical SSD1306_I2C_LineaVertical `(v  1 e 1 0 ]
+"271
+[v _SSD1306_I2C_LineaHorizontal SSD1306_I2C_LineaHorizontal `(v  1 e 1 0 ]
+"377
+[v _SSD1306_I2C_Caracter SSD1306_I2C_Caracter `(v  1 e 1 0 ]
+"417
+[v _SSD1306_I2C_Cadena SSD1306_I2C_Cadena `(v  1 e 1 0 ]
+"485
+[v _getRandom getRandom `(uc  1 e 1 0 ]
+"501
+[v _SSD1306_I2C_Animation SSD1306_I2C_Animation `(v  1 e 1 0 ]
+"21 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\testAnimacion.c
+[v _configuro configuro `(v  1 e 1 0 ]
+"46
+[v _main main `(v  1 e 1 0 ]
+"66
+[v _U1RX_ISR U1RX_ISR `IIH(v  1 e 1 0 ]
+"138 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X/SSD1306.h
+[v _buffer buffer `[1024]uc  1 s 1024 buffer ]
+"5210 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-Q_DFP/1.24.430/xc8\pic\include\proc\pic18f57q43.h
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5448
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5650
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"9708
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @532 ]
+"9764
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @533 ]
+"10604
+[v _RF0PPS RF0PPS `VEuc  1 e 1 @553 ]
+"14778
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @626 ]
+[s S555 . 1 `uc 1 TH 1 0 :2:0 
+`uc 1 . 1 0 :2:2 
+`uc 1 PU 1 0 :2:4 
+`uc 1 SLEW 1 0 :2:6 
+]
+"15511
+[s S560 . 1 `uc 1 TH0 1 0 :1:0 
+`uc 1 TH1 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 PU0 1 0 :1:4 
+`uc 1 PU1 1 0 :1:5 
+`uc 1 SLEW0 1 0 :1:6 
+`uc 1 SLEW1 1 0 :1:7 
+]
+[s S568 . 1 `uc 1 I2CTH 1 0 :2:0 
+`uc 1 . 1 0 :2:2 
+`uc 1 I2CPU 1 0 :2:4 
+`uc 1 I2CSLEW 1 0 :2:6 
+]
+[s S573 . 1 `uc 1 I2CTH0 1 0 :1:0 
+`uc 1 I2CTH1 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 I2CPU0 1 0 :1:4 
+`uc 1 I2CPU1 1 0 :1:5 
+`uc 1 I2CSLEW0 1 0 :1:6 
+`uc 1 I2CSLEW1 1 0 :1:7 
+]
+[u S581 . 1 `S555 1 . 1 0 `S560 1 . 1 0 `S568 1 . 1 0 `S573 1 . 1 0 ]
+[v _RC4I2Cbits RC4I2Cbits `VES581  1 e 1 @646 ]
+"15643
+[v _RC3I2Cbits RC3I2Cbits `VES581  1 e 1 @647 ]
+"16022
+[v _I2C1TXB I2C1TXB `VEuc  1 e 1 @652 ]
+"16042
+[v _I2C1CNT I2C1CNT `VEuc  1 e 1 @653 ]
+"16132
+[v _I2C1ADB1 I2C1ADB1 `VEuc  1 e 1 @655 ]
+[s S671 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 MDR 1 0 :1:3 
+`uc 1 CSTR 1 0 :1:4 
+`uc 1 S 1 0 :1:5 
+`uc 1 RSEN 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"16256
+[s S678 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 I2CEN 1 0 :1:7 
+]
+[u S684 . 1 `S671 1 . 1 0 `S678 1 . 1 0 ]
+[v _I2C1CON0bits I2C1CON0bits `VES684  1 e 1 @660 ]
+[s S835 . 1 `uc 1 CSD 1 0 :1:0 
+`uc 1 TXU 1 0 :1:1 
+`uc 1 RXO 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ACKT 1 0 :1:4 
+`uc 1 ACKSTAT 1 0 :1:5 
+`uc 1 ACKDT 1 0 :1:6 
+`uc 1 ACKCNT 1 0 :1:7 
+]
+"16328
+[u S844 . 1 `S835 1 . 1 0 ]
+[v _I2C1CON1bits I2C1CON1bits `VES844  1 e 1 @661 ]
+[s S739 . 1 `uc 1 BFRET 1 0 :2:0 
+`uc 1 SDAHT 1 0 :2:2 
+`uc 1 ABD 1 0 :1:4 
+`uc 1 FME 1 0 :1:5 
+`uc 1 GCEN 1 0 :1:6 
+`uc 1 ACNT 1 0 :1:7 
+]
+"16389
+[s S746 . 1 `uc 1 BFRET0 1 0 :1:0 
+`uc 1 BFRET1 1 0 :1:1 
+`uc 1 SDAHT0 1 0 :1:2 
+`uc 1 SDAHT1 1 0 :1:3 
+]
+[u S751 . 1 `S739 1 . 1 0 `S746 1 . 1 0 ]
+[v _I2C1CON2bits I2C1CON2bits `VES751  1 e 1 @662 ]
+[s S791 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 D 1 0 :1:3 
+`uc 1 R 1 0 :1:4 
+`uc 1 MMA 1 0 :1:5 
+`uc 1 SMA 1 0 :1:6 
+`uc 1 BFRE 1 0 :1:7 
+]
+"16564
+[s S798 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 DATA 1 0 :1:3 
+`uc 1 READ 1 0 :1:4 
+]
+[s S802 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_ADDRESS 1 0 :1:3 
+`uc 1 NOT_WRITE 1 0 :1:4 
+]
+[s S806 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_A 1 0 :1:3 
+`uc 1 NOT_W 1 0 :1:4 
+]
+[u S810 . 1 `S791 1 . 1 0 `S798 1 . 1 0 `S802 1 . 1 0 `S806 1 . 1 0 ]
+[v _I2C1STAT0bits I2C1STAT0bits `VES810  1 e 1 @664 ]
+[s S770 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CLRBF 1 0 :1:2 
+`uc 1 RXRE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TXWE 1 0 :1:7 
+]
+"16641
+[u S779 . 1 `S770 1 . 1 0 ]
+[v _I2C1STAT1bits I2C1STAT1bits `VES779  1 e 1 @665 ]
+[s S856 . 1 `uc 1 SCIF 1 0 :1:0 
+`uc 1 RSCIF 1 0 :1:1 
+`uc 1 PCIF 1 0 :1:2 
+`uc 1 ADRIF 1 0 :1:3 
+`uc 1 WRIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKTIF 1 0 :1:6 
+`uc 1 CNTIF 1 0 :1:7 
+]
+"16698
+[s S865 . 1 `uc 1 SC1IF 1 0 :1:0 
+`uc 1 RSC1IF 1 0 :1:1 
+`uc 1 PC1IF 1 0 :1:2 
+`uc 1 ADR1IF 1 0 :1:3 
+`uc 1 WR1IF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKT1IF 1 0 :1:6 
+`uc 1 CNT1IF 1 0 :1:7 
+]
+[u S874 . 1 `S856 1 . 1 0 `S865 1 . 1 0 ]
+[v _I2C1PIRbits I2C1PIRbits `VES874  1 e 1 @666 ]
+[s S701 . 1 `uc 1 CLK 1 0 :8:0 
+]
+"16902
+[s S703 . 1 `uc 1 I2CCLK 1 0 :8:0 
+]
+[s S705 . 1 `uc 1 CLK0 1 0 :1:0 
+`uc 1 CLK1 1 0 :1:1 
+`uc 1 CLK2 1 0 :1:2 
+`uc 1 CLK3 1 0 :1:3 
+`uc 1 CLK4 1 0 :1:4 
+]
+[s S711 . 1 `uc 1 I2CCLK0 1 0 :1:0 
+`uc 1 I2CCLK1 1 0 :1:1 
+`uc 1 I2CCLK2 1 0 :1:2 
+`uc 1 I2CCLK3 1 0 :1:3 
+`uc 1 I2CCLK4 1 0 :1:4 
+]
+[u S717 . 1 `S701 1 . 1 0 `S703 1 . 1 0 `S705 1 . 1 0 `S711 1 . 1 0 ]
+[v _I2C1CLKbits I2C1CLKbits `VES717  1 e 1 @668 ]
+"17047
+[v _U1RXB U1RXB `VEuc  1 e 1 @673 ]
+"17105
+[v _U1TXB U1TXB `VEuc  1 e 1 @675 ]
+"17304
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @683 ]
+"17432
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @684 ]
+"17512
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @685 ]
+"17661
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @686 ]
+"17681
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @687 ]
+[s S985 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"17914
+[s S994 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+`uc 1 U1RXFOIF 1 0 :1:1 
+`uc 1 U1RXBKIF 1 0 :1:2 
+`uc 1 U1FERIF 1 0 :1:3 
+`uc 1 U1CERIF 1 0 :1:4 
+`uc 1 U1ABDOVF 1 0 :1:5 
+`uc 1 U1PERIF 1 0 :1:6 
+`uc 1 U1TXMTIF 1 0 :1:7 
+]
+[u S1003 . 1 `S985 1 . 1 0 `S994 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES1003  1 e 1 @690 ]
+[s S511 . 1 `uc 1 ANSELC0 1 0 :1:0 
+`uc 1 ANSELC1 1 0 :1:1 
+`uc 1 ANSELC2 1 0 :1:2 
+`uc 1 ANSELC3 1 0 :1:3 
+`uc 1 ANSELC4 1 0 :1:4 
+`uc 1 ANSELC5 1 0 :1:5 
+`uc 1 ANSELC6 1 0 :1:6 
+`uc 1 ANSELC7 1 0 :1:7 
+]
+"41024
+[u S520 . 1 `S511 1 . 1 0 ]
+"41024
+"41024
+[v _ANSELCbits ANSELCbits `VES520  1 e 1 @1040 ]
+[s S532 . 1 `uc 1 ODCC0 1 0 :1:0 
+`uc 1 ODCC1 1 0 :1:1 
+`uc 1 ODCC2 1 0 :1:2 
+`uc 1 ODCC3 1 0 :1:3 
+`uc 1 ODCC4 1 0 :1:4 
+`uc 1 ODCC5 1 0 :1:5 
+`uc 1 ODCC6 1 0 :1:6 
+`uc 1 ODCC7 1 0 :1:7 
+]
+"41148
+[u S541 . 1 `S532 1 . 1 0 ]
+"41148
+"41148
+[v _ODCONCbits ODCONCbits `VES541  1 e 1 @1042 ]
+[s S1098 . 1 `uc 1 ANSELE0 1 0 :1:0 
+`uc 1 ANSELE1 1 0 :1:1 
+`uc 1 ANSELE2 1 0 :1:2 
+]
+"41825
+[u S1102 . 1 `S1098 1 . 1 0 ]
+"41825
+"41825
+[v _ANSELEbits ANSELEbits `VES1102  1 e 1 @1056 ]
+[s S1130 . 1 `uc 1 ANSELF0 1 0 :1:0 
+`uc 1 ANSELF1 1 0 :1:1 
+`uc 1 ANSELF2 1 0 :1:2 
+`uc 1 ANSELF3 1 0 :1:3 
+`uc 1 ANSELF4 1 0 :1:4 
+`uc 1 ANSELF5 1 0 :1:5 
+`uc 1 ANSELF6 1 0 :1:6 
+`uc 1 ANSELF7 1 0 :1:7 
+]
+"42065
+[u S1139 . 1 `S1130 1 . 1 0 ]
+"42065
+"42065
+[v _ANSELFbits ANSELFbits `VES1139  1 e 1 @1064 ]
+[s S1151 . 1 `uc 1 U1RXIE 1 0 :1:0 
+`uc 1 U1TXIE 1 0 :1:1 
+`uc 1 U1EIE 1 0 :1:2 
+`uc 1 U1IE 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 PWM1PIE 1 0 :1:6 
+`uc 1 PWM1IE 1 0 :1:7 
+]
+"47350
+[u S1159 . 1 `S1151 1 . 1 0 ]
+"47350
+"47350
+[v _PIE4bits PIE4bits `VES1159  1 e 1 @1186 ]
+[s S1170 . 1 `uc 1 U1RXIF 1 0 :1:0 
+`uc 1 U1TXIF 1 0 :1:1 
+`uc 1 U1EIF 1 0 :1:2 
+`uc 1 U1IF 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 PWM1PIF 1 0 :1:6 
+`uc 1 PWM1IF 1 0 :1:7 
+]
+"48224
+[u S1178 . 1 `S1170 1 . 1 0 ]
+"48224
+"48224
+[v _PIR4bits PIR4bits `VES1178  1 e 1 @1202 ]
+[s S490 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"49344
+[u S499 . 1 `S490 1 . 1 0 ]
+"49344
+"49344
+[v _TRISCbits TRISCbits `VES499  1 e 1 @1224 ]
+[s S1087 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+]
+"49463
+[u S1091 . 1 `S1087 1 . 1 0 ]
+"49463
+"49463
+[v _TRISEbits TRISEbits `VES1091  1 e 1 @1226 ]
+[s S1109 . 1 `uc 1 TRISF0 1 0 :1:0 
+`uc 1 TRISF1 1 0 :1:1 
+`uc 1 TRISF2 1 0 :1:2 
+`uc 1 TRISF3 1 0 :1:3 
+`uc 1 TRISF4 1 0 :1:4 
+`uc 1 TRISF5 1 0 :1:5 
+`uc 1 TRISF6 1 0 :1:6 
+`uc 1 TRISF7 1 0 :1:7 
+]
+"49500
+[u S1118 . 1 `S1109 1 . 1 0 ]
+"49500
+"49500
+[v _TRISFbits TRISFbits `VES1118  1 e 1 @1227 ]
+[s S1189 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"49913
+[s S1197 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"49913
+[u S1200 . 1 `S1189 1 . 1 0 `S1197 1 . 1 0 ]
+"49913
+"49913
+[v _INTCON0bits INTCON0bits `VES1200  1 e 1 @1238 ]
+"483 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\SSD1306.c
+[v _seed seed `us  1 e 2 0 ]
+[s S89 . 4 `s 1 x 2 0 `s 1 y 2 2 ]
+"498
+[v _objects objects `[5]S89  1 e 20 0 ]
+"15 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\testAnimacion.c
+[v _tramaserial tramaserial `[1122]us  1 e 2244 0 ]
+"16
+[v _indice indice `us  1 e 2 0 ]
+[s S28 . 7 `*.32Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+"17
+[s S35 . 37 `uc 1 height 1 0 `uc 1 width 1 1 `us 1 right 2 2 `us 1 left 2 4 `us 1 center 2 6 `uc 1 address 1 8 `[2]uc 1 cmd 2 9 `[17]uc 1 data 17 11 `uc 1 contrast 1 28 `E17608 1 color 1 29 `S28 1 Font 7 30 ]
+[v _SSD1306 SSD1306 `S35  1 e 37 0 ]
+"18
+[v _campal campal `C[30]uc  1 e 30 0 ]
+"5 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\Text_Font.c
+[v _SMALL_FONTS SMALL_FONTS `C[574]uc  1 e 574 0 ]
+"127
+[v _BIG_FONTS BIG_FONTS `C[3044]uc  1 e 3044 0 ]
+"46 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\testAnimacion.c
+[v _main main `(v  1 e 1 0 ]
+{
+"55
+} 0
+"21
+[v _configuro configuro `(v  1 e 1 0 ]
+{
+"44
+} 0
+"23 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\LIB_UART.c
+[v _U1_INIT U1_INIT `(v  1 e 1 0 ]
+{
+[v U1_INIT@velocidad velocidad `ui  1 p 2 2 ]
+"36
+} 0
+"49 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\SSD1306.c
+[v _SSD1306_I2C_Init SSD1306_I2C_Init `(v  1 e 1 0 ]
+{
+[s S28 . 7 `*.32Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+[s S35 . 37 `uc 1 height 1 0 `uc 1 width 1 1 `us 1 right 2 2 `us 1 left 2 4 `us 1 center 2 6 `uc 1 address 1 8 `[2]uc 1 cmd 2 9 `[17]uc 1 data 17 11 `uc 1 contrast 1 28 `E17608 1 color 1 29 `S28 1 Font 7 30 ]
+[v SSD1306_I2C_Init@SSD1306 SSD1306 `*.39S35  1 p 2 19 ]
+"89
+} 0
+"91
+[v _SSD1306_I2C_SetFont SSD1306_I2C_SetFont `(v  1 e 1 0 ]
+{
+[s S28 . 7 `*.32Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+[s S35 . 37 `uc 1 height 1 0 `uc 1 width 1 1 `us 1 right 2 2 `us 1 left 2 4 `us 1 center 2 6 `uc 1 address 1 8 `[2]uc 1 cmd 2 9 `[17]uc 1 data 17 11 `uc 1 contrast 1 28 `E17608 1 color 1 29 `S28 1 Font 7 30 ]
+[v SSD1306_I2C_SetFont@SSD1306 SSD1306 `*.39S35  1 p 2 2 ]
+[v SSD1306_I2C_SetFont@font font `*.32Cuc  1 p 2 4 ]
+"99
+} 0
+"16 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\I2C_LCD.c
+[v _I2C1_INIT I2C1_INIT `(v  1 e 1 0 ]
+{
+"36
+} 0
+"417 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\SSD1306.c
+[v _SSD1306_I2C_Cadena SSD1306_I2C_Cadena `(v  1 e 1 0 ]
+{
+"425
+[v SSD1306_I2C_Cadena@start_x start_x `s  1 a 2 66 ]
+"424
+[v SSD1306_I2C_Cadena@length length `uc  1 a 1 65 ]
+[s S28 . 7 `*.32Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+"417
+[s S35 . 37 `uc 1 height 1 0 `uc 1 width 1 1 `us 1 right 2 2 `us 1 left 2 4 `us 1 center 2 6 `uc 1 address 1 8 `[2]uc 1 cmd 2 9 `[17]uc 1 data 17 11 `uc 1 contrast 1 28 `E17608 1 color 1 29 `S28 1 Font 7 30 ]
+[v SSD1306_I2C_Cadena@SSD1306 SSD1306 `*.39S35  1 p 2 51 ]
+[v SSD1306_I2C_Cadena@x x `s  1 p 2 53 ]
+[v SSD1306_I2C_Cadena@y y `s  1 p 2 55 ]
+[v SSD1306_I2C_Cadena@text text `*.32uc  1 p 2 57 ]
+"481
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.32Cuc  1 a 2 4 ]
+"5
+[v strlen@s s `*.32Cuc  1 p 2 2 ]
+"12
+} 0
+"377 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\SSD1306.c
+[v _SSD1306_I2C_Caracter SSD1306_I2C_Caracter `(v  1 e 1 0 ]
+{
+"381
+[v SSD1306_I2C_Caracter@cnt cnt `s  1 a 2 48 ]
+"380
+[v SSD1306_I2C_Caracter@rowcnt rowcnt `s  1 a 2 46 ]
+"383
+[v SSD1306_I2C_Caracter@temp temp `us  1 a 2 44 ]
+"379
+[v SSD1306_I2C_Caracter@font_idx font_idx `us  1 a 2 42 ]
+"382
+[v SSD1306_I2C_Caracter@b b `c  1 a 1 50 ]
+[s S28 . 7 `*.32Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+"377
+[s S35 . 37 `uc 1 height 1 0 `uc 1 width 1 1 `us 1 right 2 2 `us 1 left 2 4 `us 1 center 2 6 `uc 1 address 1 8 `[2]uc 1 cmd 2 9 `[17]uc 1 data 17 11 `uc 1 contrast 1 28 `E17608 1 color 1 29 `S28 1 Font 7 30 ]
+[v SSD1306_I2C_Caracter@SSD1306 SSD1306 `*.39S35  1 p 2 25 ]
+[v SSD1306_I2C_Caracter@x x `s  1 p 2 27 ]
+[v SSD1306_I2C_Caracter@y y `s  1 p 2 29 ]
+[v SSD1306_I2C_Caracter@value value `uc  1 p 1 31 ]
+"415
+} 0
+"168
+[v _SSD1306_I2C_DrawPixel SSD1306_I2C_DrawPixel `(v  1 e 1 0 ]
+{
+[s S28 . 7 `*.32Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+[s S35 . 37 `uc 1 height 1 0 `uc 1 width 1 1 `us 1 right 2 2 `us 1 left 2 4 `us 1 center 2 6 `uc 1 address 1 8 `[2]uc 1 cmd 2 9 `[17]uc 1 data 17 11 `uc 1 contrast 1 28 `E17608 1 color 1 29 `S28 1 Font 7 30 ]
+[v SSD1306_I2C_DrawPixel@SSD1306 SSD1306 `*.39S35  1 p 2 10 ]
+[v SSD1306_I2C_DrawPixel@x x `s  1 p 2 12 ]
+[v SSD1306_I2C_DrawPixel@y y `s  1 p 2 14 ]
+"185
+} 0
+"501
+[v _SSD1306_I2C_Animation SSD1306_I2C_Animation `(v  1 e 1 0 ]
+{
+"531
+[v SSD1306_I2C_Animation@buffer_pos buffer_pos `us  1 a 2 37 ]
+"529
+[v SSD1306_I2C_Animation@col col `uc  1 a 1 40 ]
+"528
+[v SSD1306_I2C_Animation@page page `uc  1 a 1 39 ]
+"527
+[v SSD1306_I2C_Animation@img_ptr img_ptr `*.32Cuc  1 a 2 33 ]
+"524
+[v SSD1306_I2C_Animation@start_page start_page `uc  1 a 1 36 ]
+"523
+[v SSD1306_I2C_Animation@pages pages `uc  1 a 1 35 ]
+"506
+[v SSD1306_I2C_Animation@i i `uc  1 a 1 41 ]
+"517
+[v SSD1306_I2C_Animation@i_479 i `uc  1 a 1 42 ]
+[s S28 . 7 `*.32Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+"501
+[s S35 . 37 `uc 1 height 1 0 `uc 1 width 1 1 `us 1 right 2 2 `us 1 left 2 4 `us 1 center 2 6 `uc 1 address 1 8 `[2]uc 1 cmd 2 9 `[17]uc 1 data 17 11 `uc 1 contrast 1 28 `E17608 1 color 1 29 `S28 1 Font 7 30 ]
+[v SSD1306_I2C_Animation@SSD1306 SSD1306 `*.39S35  1 p 2 19 ]
+[v SSD1306_I2C_Animation@image image `*.32Cuc  1 p 2 21 ]
+[v SSD1306_I2C_Animation@width width `uc  1 p 1 23 ]
+[v SSD1306_I2C_Animation@height height `uc  1 p 1 24 ]
+"502
+[v SSD1306_I2C_Animation@initialized initialized `uc  1 s 1 initialized ]
+"552
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 3 0 ]
+{
+"5
+[v memset@p p `*.39uc  1 a 2 16 ]
+"3
+[v memset@dest dest `*.39v  1 p 2 10 ]
+[v memset@c c `i  1 p 2 12 ]
+[v memset@n n `ui  1 p 2 14 ]
+"10
+} 0
+"485 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\SSD1306.c
+[v _getRandom getRandom `(uc  1 e 1 0 ]
+{
+[v getRandom@limit limit `uc  1 p 1 wreg ]
+"487
+[v getRandom@num num `us  1 a 2 11 ]
+"485
+[v getRandom@limit limit `uc  1 p 1 wreg ]
+[v getRandom@limit limit `uc  1 p 1 13 ]
+"489
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 4 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 8 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 7 ]
+[v ___awdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+[v ___awdiv@divisor divisor `i  1 p 2 4 ]
+"41
+} 0
+"113 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\SSD1306.c
+[v _SSD1306_I2C_Update SSD1306_I2C_Update `(v  1 e 1 0 ]
+{
+"115
+[v SSD1306_I2C_Update@i i `us  1 a 2 16 ]
+"116
+[v SSD1306_I2C_Update@x x `uc  1 a 1 18 ]
+[s S28 . 7 `*.32Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+"113
+[s S35 . 37 `uc 1 height 1 0 `uc 1 width 1 1 `us 1 right 2 2 `us 1 left 2 4 `us 1 center 2 6 `uc 1 address 1 8 `[2]uc 1 cmd 2 9 `[17]uc 1 data 17 11 `uc 1 contrast 1 28 `E17608 1 color 1 29 `S28 1 Font 7 30 ]
+[v SSD1306_I2C_Update@SSD1306 SSD1306 `*.39S35  1 p 2 10 ]
+"139
+} 0
+"25
+[v _SSD1306_I2C_SendData SSD1306_I2C_SendData `(v  1 s 1 SSD1306_I2C_SendData ]
+{
+[s S28 . 7 `*.32Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+[s S35 . 37 `uc 1 height 1 0 `uc 1 width 1 1 `us 1 right 2 2 `us 1 left 2 4 `us 1 center 2 6 `uc 1 address 1 8 `[2]uc 1 cmd 2 9 `[17]uc 1 data 17 11 `uc 1 contrast 1 28 `E17608 1 color 1 29 `S28 1 Font 7 30 ]
+[v SSD1306_I2C_SendData@SSD1306 SSD1306 `*.39S35  1 p 2 7 ]
+"47
+} 0
+"4
+[v _SSD1306_I2C_SendCommand SSD1306_I2C_SendCommand `(v  1 s 1 SSD1306_I2C_SendCommand ]
+{
+[s S28 . 7 `*.32Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+[s S35 . 37 `uc 1 height 1 0 `uc 1 width 1 1 `us 1 right 2 2 `us 1 left 2 4 `us 1 center 2 6 `uc 1 address 1 8 `[2]uc 1 cmd 2 9 `[17]uc 1 data 17 11 `uc 1 contrast 1 28 `E17608 1 color 1 29 `S28 1 Font 7 30 ]
+[v SSD1306_I2C_SendCommand@SSD1306 SSD1306 `*.39S35  1 p 2 7 ]
+[v SSD1306_I2C_SendCommand@command command `uc  1 p 1 9 ]
+"23
+} 0
+"38 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\I2C_LCD.c
+[v _I2C1_WRITESINGLEBYTE I2C1_WRITESINGLEBYTE `(v  1 e 1 0 ]
+{
+[v I2C1_WRITESINGLEBYTE@direccion direccion `uc  1 p 1 wreg ]
+"39
+[v I2C1_WRITESINGLEBYTE@buffer buffer `uc  1 a 1 6 ]
+"38
+[v I2C1_WRITESINGLEBYTE@direccion direccion `uc  1 p 1 wreg ]
+[v I2C1_WRITESINGLEBYTE@dato dato `*.39uc  1 p 2 2 ]
+[v I2C1_WRITESINGLEBYTE@len len `uc  1 p 1 4 ]
+[v I2C1_WRITESINGLEBYTE@direccion direccion `uc  1 p 1 5 ]
+"65
+} 0
+"66 C:\Users\Joseph\MPLABXProjects\GUSWATCH.X\testAnimacion.c
+[v _U1RX_ISR U1RX_ISR `IIH(v  1 e 1 0 ]
+{
+"75
+} 0
